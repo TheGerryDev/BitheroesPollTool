@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 lead">
       <p>Wie beurteilst du das Gesamtklima?
       </p>
     </div>
@@ -20,6 +20,14 @@
       <p>Durchschnitt:</p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="container">
   <div class="row">
@@ -28,7 +36,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 lead">
       <p>Wie beurteilst du das Familiengefühl?</p>
     </div>
   </div>
@@ -42,6 +50,14 @@
       <p>Durchschnitt:</p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="container">
   <div class="row">
@@ -50,7 +66,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 lead">
       <p>Wie beurteilst du die Hilfsbereitschaft?</p>
     </div>
   </div>
@@ -64,6 +80,14 @@
       <p>Durchschnitt:</p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="container">
   <div class="row">
@@ -72,7 +96,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 lead">
       <p>Wie findest du die Homepage?</p>
     </div>
   </div>
@@ -86,6 +110,14 @@
       <p>Durchschnitt:</p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="container">
   <div class="row">
@@ -94,7 +126,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 lead">
       <p>Wie beurteilst du die Arbeit der Offis?</p>
     </div>
   </div>
@@ -108,6 +140,14 @@
       <p>Durchschnitt:</p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="container">
   <div class="row">
@@ -116,7 +156,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 lead">
       <p>Wie beurteilst du die Arbeit der Gildenführer?</p>
     </div>
   </div>
@@ -130,6 +170,14 @@
       <p>Durchschnitt:</p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="container">
   <div class="row">
@@ -138,7 +186,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 lead">
       <p>Wie wichtig ist dir die Community?</p>
     </div>
   </div>
@@ -152,6 +200,14 @@
       <p>Durchschnitt:</p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="container">
   <div class="row">
@@ -160,7 +216,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 lead">
       <p>Wie wichtig ist es dir andere Gilden zu unterstützen?</p>
     </div>
   </div>
@@ -174,6 +230,14 @@
       <p>Durchschnitt:</p>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="container">
   <div class="row">
@@ -182,7 +246,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 lead">
       <p>Wie gut denkst du, wird die Verbindung zu Paten gepflegt?</p>
     </div>
   </div>
@@ -196,66 +260,212 @@
       <p>Durchschnitt:</p>
     </div>
   </div>
-</div>
-<div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Frage 10</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p>Was hältst du von den Wettbewerben in felis kakaokränzchen?</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p>Ergebnis:</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p>Durchschnitt:</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <button class="collapsible">Open Collapsible</button>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <h1>Frage 10</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p>Was hältst du von den Wettbewerben in felis kakaokränzchen?</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p>Ergebnis:</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p>Durchschnitt:</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <button onclick="collapse()">Details</button>
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
       <div *ngIf="collapsed">
         <p>Lorem ipsum...</p>
       </div>
     </div>
   </div>
 </div>
-
-
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Frage 10</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 lead">
+      <p>Was hältst du von den Wettbewerben in felis kakaokränzchen?</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Ergebnis:</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Durchschnitt:</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Frage 11</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 lead">
+      <p>Würdest du dir mehr Aktionen innerhalb der Gilde wünschen?</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Ergebnis:</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Durchschnitt:</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Frage 12</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 lead">
+        <p>Würdest du dir mehr Informationen über gildeninterne Geschehnisse wünschen?</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>Ergebnis:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>Durchschnitt:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <button (click)="collapse()" class="btn btn-warning">Details</button>
+        <div *ngIf="collapsed">
+          <p>Lorem ipsum...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Frage 13</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 lead">
+          <p>Würdest du gerne mehr über die Geschichte der Gilde wissen?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Ergebnis:</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Durchschnitt:</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button (click)="collapse()" class="btn btn-warning">Details</button>
+          <div *ngIf="collapsed">
+            <p>Lorem ipsum...</p>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Frage 14</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 lead">
+      <p>Gibt es Chatrooms auf dem Server, die du als unnötig oder überflüssig ansiehst?</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Ergebnis:</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Durchschnitt:</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Frage 15</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 lead">
+      <p>Gibt es Chatrooms auf dem Server, die dir fehlen oder dir wünschst?</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Ergebnis:</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Durchschnitt:</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Frage 16</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 lead">
+      <p>Weitere Anmerkungen von dir, die du uns gerne mitteilen möchtest?</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button (click)="collapse()" class="btn btn-warning">Details</button>
+      <div *ngIf="collapsed">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+  </div>
+</div>
