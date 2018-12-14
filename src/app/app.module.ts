@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { StartPageComponent } from './start-page/start-page.component';
 import { PollComponent } from './poll/poll.component';
 import { ResultComponent } from './result/result.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartPageComponent,
     PollComponent,
-    ResultComponent
+    ResultComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
