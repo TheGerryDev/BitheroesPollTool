@@ -17,11 +17,12 @@
         </div>
       </div>
       <div class="col-md-1"></div>
-      <div class="form-check col-md-10">
-        <label class="form-check-label" for="defaultCheck1">
-          Ich erkläre mich mit den Vereinbarungen der AGB einverstanden.
-        </label>
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <div class="col-md-10">
+          <form name="myForm" ng-controller="ExampleController" style="text-align:center">
+              <label>Ich akzeptiere die Datenschutzbestimmungen.
+                <input type="checkbox" ng-model="checkboxModel.value1">
+              </label>
+          </form>
       </div>
     </div>
   </div>

@@ -7,6 +7,9 @@ import { StartPageComponent } from './start-page/start-page.component';
 import { PollComponent } from './poll/poll.component';
 import { ResultComponent } from './result/result.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { ImpressumComponent } from './impressum/impressum.component';
+import { DataProtectionComponent } from './data-protection/data-protection.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { HeaderComponent } from './header/header.component';
     StartPageComponent,
     PollComponent,
     ResultComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    ImpressumComponent,
+    DataProtectionComponent
   ],
   imports: [
     BrowserModule,
